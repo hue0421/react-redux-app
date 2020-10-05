@@ -1,12 +1,12 @@
 import React from "react";
-import DisplayNumber from "./DisplayNumber";
+import DisplayNumber from "../containers/DisplayNumber";
 
-const DisplayNumberRoot = (props) => {
+const DisplayNumberRoot = () => {
   console.log("DisplayNumberRoot");
   return (
     <div>
       <h1>Display Number Root</h1>
-      <DisplayNumber number={props.number} />
+      <DisplayNumber />
     </div>
   );
 };

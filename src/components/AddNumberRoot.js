@@ -1,12 +1,12 @@
 import React from "react";
-import AddNumber from "./AddNumber";
+import AddNumber from "../containers/AddNumber";
 
-const AddNumberRoot = (props) => {
+const AddNumberRoot = () => {
   console.log("AddNumberRoot");
   return (
     <div>
       <h1>Add Number Root</h1>
-      <AddNumber handleAdd={props.handleAdd} />
+      <AddNumber />
     </div>
   );
 };
